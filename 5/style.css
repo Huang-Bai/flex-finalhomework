@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*reset end*/
+
+.wrap{
+    width: 1285px;
+    margin: 0 auto;
+  }
+  .wrap img{
+    display: block;
+  }
+  .df{
+    display: flex;
+  }
+  .fxd-rr{
+    flex-direction:row-reverse;
+  }
+  .bg-color{
+    background: #e7eeea;
+  }
+  .wrap h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #405a46;
+  }
+  .wrap p{
+    font-size: 15px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #405a46;
+  }
+  
+  /*-----------*/
+  .tips1{
+    margin-bottom: 45px;
+    padding: 15px 0;
+  }
+  .tips1 img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+  }
+  .tips1 .tips-item{
+      padding: 0 25px;
+  }
+  .tips1 .tips-content{
+    margin-top: 15px;
+  }
+  
+  /*-----------*/
+  .tips2{
+    margin-bottom: 45px;
+  }
+  .tips2 img{
+    margin: 0 auto;
+    margin-bottom: 11px;
+  }
+  .tips2 .tips-item{
+    text-align: center;
+    padding: 15px 30px;
+  }
+  
+  /*-----------*/
+  .tips3{
+    padding: 15px 25px;
+  }
+  .tips3 .tips-item{
+    align-items: center;
+  }
+  .tips3 .tips-content{
+    padding: 0 10px;
+  }
